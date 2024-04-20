@@ -1,0 +1,162 @@
+{
+  "home": {
+    "name": "Sophia Pachilis",
+    "university": "Boston College",
+    "photo": "https://cdn.glitch.global/3cc8c9b5-d173-4103-b600-ed6a85b9e981/profile_img.jpeg?v=1708546846588",
+    "major": "B.A. Computer Science, Minor in Japanese",
+    "phone": "(410)-608-5068",
+    "email": "pachilis@bc.edu"
+  },
+  "courses": [
+    {
+      "title": "Computer Science I",
+      "date": "Fall 2022"
+    },
+    {
+      "title": "Computer Science II",
+      "date": "Spring 2023"
+    },
+    {
+      "title": "Logic and Computation",
+      "date": "Spring 2023"
+    },
+    {
+      "title": "Randomness and Computation",
+      "date": "Fall 2023"
+    },
+    {
+      "title": "Computer Organization",
+      "date": "Fall 2023"
+    },
+    {
+      "title": "Computer Systems",
+      "date": "Spring 2024"
+    },
+    {
+      "title": "Robotics",
+      "date": "Spring 2024"
+    },
+    {
+      "title": "Web Application Development",
+      "date": "Spring 2024"
+    }
+  ],
+  "work": [
+    {
+      "job": "Computer Organization Teaching Assistant",
+      "description": [
+        "Assist students with Verilog programming by providing clear and concise explanations of the language and assignment details",
+        "Assist students with the Quartus software and Altera DE1 Board by helping design logic gates and circuits, latches, decoders, multiplexores, ALUs, and more",
+        "Manage and lead computer labs by organizing materials for students and provide clear instructions for students to perform the lab",
+        "80+ students for 6-8 hours per week",
+        "Provide excellent instruction and assistance to students to help them better understand the internal organization of computers and the processing of machine instructions",
+        "Establish a grading systems for homework assignments and labs, and grade labs, homework, and quizzes for students on a strict timeline"
+      ]
+    },
+    {
+      "job": "Invoice Processor",
+      "description": [
+        "Manage LLC and Restaurant invoices using Restaurant365 in order to help keep itemized records for good business financial practices",
+        "Process physical invoices into an online database by inputting data and cross checking with the physical copy for customer’s book-keeping records to maintain clear and precise financial records",
+        "120+ Companies with 150+ locations Processing up to $20,000 per day of work",
+        "Provide excellent organization of financial records by processing physical invoices into an online database which allows the financial consultants to provide a more accurate and well-rounded consultation to customers"
+      ]
+    }
+  ],
+  "about": [
+    {
+      "title": "About Me",
+      "bio": "My name is Sophia Pachilis and I'm from Baltimore, Maryland. I'm a current junior at Boston College studying Computer Science with a minor in Japanese. My main interest in computer science is web development or game development, something more front-end based. In my free time I enjoy lifitng weights and building legos."
+    },
+    {
+      "title": "Club Involvement",
+      "clubs": [
+        {
+          "title": "Campus Activities Board",
+          "description": [
+            "Coordinator for the Campus Engagement Branch",
+            "In charge of planning, managing, budgeting, and running events on the Boston College campus",
+            "Some events I've planned:",
+            "Flower Bouquets- hundreds of flowers were ordered for the student body to hand-craft bouquets in anticipation of parents' weekend",
+            "Boo Bags- surprise bags of Halloween goodies that you could send to your friends to be anonomously left at their door step",
+            "Christmas market- Gingerbread house competition, hot cocoa, candle making, cookie decorating and more all in a themed space with Christmas music"
+          ]
+        },
+        {
+          "title": "Student Admissions Program",
+          "description": [
+            "Running Eagle For a Day",
+            "Private touring prospective students",
+            "Bringing prospective students to classes, dorm buildings, and lunch halls"
+          ]
+        },
+        {
+          "title": "Women in Computer Science",
+          "description":[
+            "Member of the Women in Computer Science club",
+            "Attends group coding sessions",
+            "Attends course information sessions",
+            "Doing workshops about coding and web development"
+          ] 
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "internship": [
+        {
+          "title": "Internship Updates",
+          "description": "Current Interviews in the works:"
+        }
+      ]
+    },
+    {
+      "travels": [
+        {
+          "title": "Recent Travels"
+        },
+        {
+          "photos": [
+            {
+              "title": "Greece - Santorini!",
+              "photo": "https://cdn.glitch.global/4cc9ad44-a29f-47fd-8dcd-a7fac8e272ea/IMG_0989.jpeg?v=1708985033408"
+            },
+            {
+              "title": "Italy - Pisa!",
+              "photo": "https://cdn.glitch.global/4cc9ad44-a29f-47fd-8dcd-a7fac8e272ea/IMG_1102.jpeg?v=1708985340306"
+            },
+            {
+              "title": "Malta!",
+              "photo": "https://cdn.glitch.global/4cc9ad44-a29f-47fd-8dcd-a7fac8e272ea/IMG_2824.jpeg?v=1708985626819"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Python Tutorial Website",
+      "id": 1,
+      "path": "https://pythontutorial-63cm.onrender.com",
+      "description": "This project was created during the Boston College Hackathon in Fall 2023.  It was a collaborative project with the theme of education. My group and I had 24 hours to create an educational computer science project. We decided to make a python tutorial website. I was in charge of the homepage while the other group members made the tutorial pages."
+    },
+    {
+      "title": "Arduino Car Programming",
+      "id": 2,
+      "description": "This project involved coding a robotic car to drive around using a remote. This was a collaborative project with a lab group. We coded in C using the Arduino software, and used the app Dabble to connect via Bluetooth to the robot. Our robot's name was Wall-E. Pictures are below!",
+      "photos": [
+        {
+          "photo": "https://cdn.glitch.global/4cc9ad44-a29f-47fd-8dcd-a7fac8e272ea/Screen%20Shot%202024-02-27%20at%2012.29.23%20PM.png?v=1709054990925"
+        },
+        {
+          "photo": "https://cdn.glitch.global/4cc9ad44-a29f-47fd-8dcd-a7fac8e272ea/Screen%20Shot%202024-02-27%20at%2012.30.13%20PM.png?v=1709055040294"
+        },
+        {
+          "photo": "https://cdn.glitch.global/4cc9ad44-a29f-47fd-8dcd-a7fac8e272ea/Screen%20Shot%202024-02-27%20at%2012.33.43%20PM.png?v=1709055255238"
+        }
+      ]
+    }
+  ]
+}

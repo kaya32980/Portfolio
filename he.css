@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+
+.protest-riot-regular {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  background-color: pink;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+#topbar {
+  font-family: "Protest Riot", sans-serif;
+  display: flex;
+  border: 5px;
+  border-bottom-left-radius: 20px;
+  font-size: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-align: right;
+  padding: 10px;
+}
+nav ul a {
+  text-decoration: none;
+  color: #fffff0;
+}
+nav ul a:hover {
+  color: #fff0f5;
+}
+.cont {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  background-color: #faf0e6;
+  font-family: "Protest Riot", sans-serif;
+}
+section.left {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  color: #d8bfd8;
+}
+section.box-profile {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  color: #d8bfd8;
+}
+.box-profile h1 {
+  font-size: 45px;
+  margin-bottom: 5px;
+  text-shadow: 3px 3px pink;
+}
+.box-profile h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+.box-profile h3 {
+  margin-top: 5px;
+}
+.box-profile p {
+  font-size: 20px;
+}
+.box-profile a {
+  text-decoration: none;
+  color: #fffff0;
+}
+.box-profile a:hover {
+  color: #fff0f5;
+}
+
+img.profile-image {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-top: 20px;
+  vertical-align: middle;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+section.courses {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: start;
+  color: #d8bfd8;
+}
+.courses h3 {
+  font-size: 30px;
+  text-shadow: 2px 2px pink;
+}
+div.row {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+.col-8 {
+  flex: auto;
+}
+section.work {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  color: #d8bfd8;
+}
+section.work h2 {
+  font-size: 40px;
+  text-shadow: 2px 2px pink;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+section.work div {
+  border: 5px solid pink;
+  padding: 10px;
+}
+section.work h3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+section.work li {
+  font-size: 20px;
+}
+
+
+section.python {
+  grid-column: 1/4;
+  grid-row: 1;
+  color: #d8bfd8;
+}
+section.python h2 {
+  font-size: 40px;
+  text-shadow: 2px 2px pink;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+section.python p {
+  font-size: 30px;
+  margin: 10px 10px 10px 10px;
+}
+.python a {
+  text-decoration: none;
+  color: #fffff0;
+}
+.python a:hover {
+  color: #fff0f5;
+}
+section.robotics {
+  grid-column: 1/4;
+  grid-row: 2;
+  color: #d8bfd8;
+}
+section.robotics h2 {
+  font-size: 40px;
+  text-shadow: 2px 2px pink;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+section.robotics p {
+  font-size: 30px;
+  margin: 10px 10px 10px 10px;
+}
+section.pictures {
+  grid-column: 1/4;
+  grid-row: 3;
+  color: #d8bfd8;
+}
+div.club-inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+section.pictures h2 {
+  font-size: 35px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: 5px;
+}
+section.pictures h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.club-inner div {
+  border: 5px solid pink;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.pictures img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.singleProject {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: repeat(1, 1fr);
+  background-color: #faf0e6;
+  font-family: "Protest Riot", sans-serif;
+  color: #d8bfd8;
+}
+@media only screen and (max-width: 768px) {
+  div.club-inner {
+    grid-template-columns: auto;
+  }
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .cont {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "left"
+      "box-profile"
+      "courses"
+      "work";
+  }
+  section.work {
+    grid-column: auto;
+    grid-row: auto;
+  }
+}
